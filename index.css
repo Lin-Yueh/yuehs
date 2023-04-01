@@ -1,0 +1,104 @@
+body {
+    background-image: url(image/greensea1.jpg);
+    background-size: 100%;
+    background-color: rgba(149, 166, 167, 0.808);
+    background-attachment: fixed;
+    background-position: center center;
+    background-blend-mode: multiply;
+}
+footer{
+    text-align: center;
+    color: rgb(217, 232, 238);
+    padding: 10px;
+    font-size: large;
+    /* position: absolute;
+    bottom: 0%; */
+    float: none;
+}
+.me{
+    background-color: #e0e1dd;
+    width: 80%;
+    margin-left: 10%;
+    height: 500px;
+    border-radius: 10px;
+}
+.img{
+    /* text-align: left; */
+    height: 70%;
+    width: auto;
+    margin: 5%;
+    /* float: left; */
+}
+.introw {
+    float: right;
+    margin: -50% 150px 0 0;
+}
+.word{
+    color: #2b2d42;
+    font-size: large;
+    margin: 0 8% 10px 10%;
+    -webkit-column-break-after: always;
+}
+.wordsss{
+    font-size: large;
+    color: #2b2d42;
+    position: relative;
+    z-index: 3;
+}
+.thing {
+    background-color: #e0e1dd;
+    width: 80%;
+    margin-left: 10%;
+    height: auto;
+    border-radius: 10px;
+    /* padding: 20px; */
+    columns: 2;
+    column-rule: #2b2d42 2px solid;
+
+}
+.imgthing {
+    width: 80%;
+    margin-left: 10%;
+}
+.title {
+    color: #2b2d42;
+    text-align: center;
+    column-span: all;
+}
+.imgthings {
+    width: 80%;
+    margin-left: 10%;
+}
+img {
+    border-radius: 10px;
+}
+.words {
+    text-align: center;
+    color: #2b2d42;
+}
+.wordss {
+    color: #2b2d42;
+    position: relative;
+    z-index: 3;
+    padding-top: -250%;
+}
+.space {
+    column-span: all; 
+}
+.link{
+    width: 70px;
+    height: auto;
+    margin-right: 10px; 
+    position: relative;
+    z-index: 3;
+}
+.fra{
+    position: relative;
+    z-index: 2;
+    /* float: right; */
+    top: -75%;
+    left: 45%;
+}
+#born{
+    padding-left: 80px;
+}
